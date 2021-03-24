@@ -22,7 +22,8 @@ const options = {
  family: 4 // Use IPv4, skip trying IPv6
  };
 
-mongoose.connect('mongodb+srv://Sujatha:Suji2206%40@cluster0.w7aca.mongodb.net/node-angular?retryWrites=true&w=majority',options)
+mongoose.connect('
+                //mongodb cluster url',options)
 .then(()=>{
   console.log("connected to database");
 }).catch(()=>{
